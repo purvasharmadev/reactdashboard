@@ -1,0 +1,32 @@
+form{
+    background-color: var(--color-background);
+    border: 2px solid var(--color-border);
+    border-radius:var(--radius-border) ;
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    width: 350px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: var(--radius-border);
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    margin-left: 12px;
+    width: 100%;
+
+}
+
+button:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.form-container{
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-border);
+}
