@@ -1,0 +1,46 @@
+:root{
+    --color-primary:#6C63FF;
+    --color-secondary:#767676;
+    --color-text:#767676;
+    --color-background:#FFFFFF;
+    --color-border:#EFEFEF;
+    --color-error:red;
+    
+    --box-shadow:0px 0px 20px rgba(0, 0, 0, 0.568);
+
+    --radius-border:10px;
+}
+
+.img-container{
+    height: auto;
+    width: 50%;
+    max-width: 100%;
+    padding: 2rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-background);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.heading{
+    text-align: center;
+    color: var(--color-primary);
+    font-weight: 550;
+}
+
+.img-responsive{
+    max-inline-size: 100%;
+    block-size: 100%;
+}
+
+
